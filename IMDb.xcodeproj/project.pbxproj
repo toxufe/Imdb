@@ -77,11 +77,8 @@
 		DC05A7321B77800F008B0569 /* IMDb */ = {
 			isa = PBXGroup;
 			children = (
-				DC05A7351B77800F008B0569 /* AppDelegate.swift */,
 				DC05A7371B77800F008B0569 /* ViewController.swift */,
 				DC05A7391B77800F008B0569 /* Main.storyboard */,
-				DC05A73C1B77800F008B0569 /* Images.xcassets */,
-				DC05A73E1B77800F008B0569 /* LaunchScreen.xib */,
 				DC05A7331B77800F008B0569 /* Supporting Files */,
 			);
 			path = IMDb;
@@ -90,6 +87,9 @@
 		DC05A7331B77800F008B0569 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DC05A7351B77800F008B0569 /* AppDelegate.swift */,
+				DC05A73C1B77800F008B0569 /* Images.xcassets */,
+				DC05A73E1B77800F008B0569 /* LaunchScreen.xib */,
 				DC05A7341B77800F008B0569 /* Info.plist */,
 			);
 			name = "Supporting Files";
