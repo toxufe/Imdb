@@ -13,6 +13,7 @@
 		DC05A73D1B77800F008B0569 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC05A73C1B77800F008B0569 /* Images.xcassets */; };
 		DC05A7401B77800F008B0569 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC05A73E1B77800F008B0569 /* LaunchScreen.xib */; };
 		DC05A74C1B77800F008B0569 /* IMDbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC05A74B1B77800F008B0569 /* IMDbTests.swift */; };
+		DC05A7581B778B71008B0569 /* IMDBbAPIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC05A7571B778B71008B0569 /* IMDBbAPIController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		DC05A7451B77800F008B0569 /* IMDbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMDbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC05A74A1B77800F008B0569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC05A74B1B77800F008B0569 /* IMDbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMDbTests.swift; sourceTree = "<group>"; };
+		DC05A7571B778B71008B0569 /* IMDBbAPIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IMDBbAPIController.swift; path = search/IMDBbAPIController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		DC05A7321B77800F008B0569 /* IMDb */ = {
 			isa = PBXGroup;
 			children = (
+				DC05A7591B778B82008B0569 /* 搜索 */,
 				DC05A7371B77800F008B0569 /* ViewController.swift */,
 				DC05A7391B77800F008B0569 /* Main.storyboard */,
 				DC05A7331B77800F008B0569 /* Supporting Files */,
@@ -110,6 +113,14 @@
 				DC05A74A1B77800F008B0569 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC05A7591B778B82008B0569 /* 搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				DC05A7571B778B71008B0569 /* IMDBbAPIController.swift */,
+			);
+			name = "搜索";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 			files = (
 				DC05A7381B77800F008B0569 /* ViewController.swift in Sources */,
 				DC05A7361B77800F008B0569 /* AppDelegate.swift in Sources */,
+				DC05A7581B778B71008B0569 /* IMDBbAPIController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
